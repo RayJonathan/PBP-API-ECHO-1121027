@@ -101,6 +101,7 @@ func CheckLogin(c echo.Context) error {
 	return c.JSON(http.StatusOK, map[string]string{
 		"Message  ": "SUCCESS SET COOKIE",
 	})
+
 }
 
 // func readCookie(c echo.Context) error {

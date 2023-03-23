@@ -27,8 +27,6 @@ func FetchAllPegawai() (Response, error) {
 
 	rows, err := con.Query(sqlStatement)
 
-	defer rows.Close()
-
 	if err != nil {
 		return res, err
 	}
