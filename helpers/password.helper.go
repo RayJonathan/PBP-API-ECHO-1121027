@@ -20,5 +20,4 @@ func CheckPasswordHash(password, hash string) (bool, error) {
 	}
 	return true, nil
 
-	fmt.println()
 }
