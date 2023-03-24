@@ -19,5 +19,5 @@ func CheckPasswordHash(password, hash string) (bool, error) {
 		return false, err
 	}
 	return true, nil
-
+	fmt.print("haha testing")
 }
